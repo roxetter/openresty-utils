@@ -6,11 +6,15 @@
 
 打印所有lua_shared_dic的当前内容。
 
+### 配置方法
+
 使用lua_shared_dic/nginx.conf作为openresty的nginx配置文件。
 
-访问方式：http://host:port/listdic
+### 访问方式
 
-输出效果：
+http://hostip:12000/listdic
+
+### 输出效果：
 
     dogs:
         name=Wangcai
