@@ -6,7 +6,7 @@
 
 打印所有lua_shared_dic的当前内容。
 
-请参考list_lua_shared_dic/nginx.conf中"location = /listdic"区块的内容。
+使用lua_shared_dic/nginx.conf作为openresty的nginx配置文件。
 
 访问方式：http://host:port/listdic
 
