@@ -10,7 +10,9 @@
 
 #### 调用方法
 
-访问url：/listdics
+访问url：
+
+    /listdics
 
 #### 输出效果：
 
@@ -24,10 +26,23 @@
 
 #### 调用方法
 
-访问url：/setdic/{dic}/{key}={value}
+访问url：
 
-如：/setdic/dogs/name=Biggy
+    /setdic/{dic}/{key}={value}
+
+如：
+    /setdic/dogs/name=Biggy
 
 #### 输出效果
 
+成功时：
+
     ok
+
+dic不存在时：
+
+    dic not exist: dogs
+    
+url后半部分有误时：
+
+    bad url
