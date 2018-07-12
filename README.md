@@ -1,6 +1,6 @@
 # openresty-utils
 
-自己写的一些用于openresty的小工具。
+自己写的一些用于[openresty](https://github.com/openresty/)的小工具。
 
 ## lua_shared_dic_utils
 
